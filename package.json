@@ -4,8 +4,8 @@
   "description": "Simple mood based video recommendation API",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node --watch server.js"
+    "start": "node api.js && node server.js",
+    "dev": "node api.js && node --watch server.js"
   },
   "dependencies": {
     "cors": "^2.8.6",

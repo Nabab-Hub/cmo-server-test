@@ -7,7 +7,7 @@ const app = express();
 const PORT = 8087;
 
 // let's tackle cors
-const REQ_URL = 'http://localhost:5173'
+const REQ_URL = 'https://cmo-frontend-test.vercel.app'
 // const REQ_URL = 'https://automatic-exam-bot.vercel.app'
 const corsOption = {
     origin: REQ_URL,
